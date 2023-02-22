@@ -1,9 +1,4 @@
-# music-through-years
-UVA natural language processing project analyzing the evolution of sentiment &amp; topic modeling across the most popular songs of the past 50 years using the Billboard Hot 100 year end rankings to represent popularity
-
-Name: Alex Link Computing ID: acl5mt 
-
-**Billboard Hot 100 Lyrics Through the Decades** 
+# Billboard Hot 100 Lyrics Through the Decades
 
 **Intro:** 
 
