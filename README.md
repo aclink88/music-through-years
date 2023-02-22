@@ -12,7 +12,7 @@ Since there was no readily available text or spreadsheet data on all these songs
 
 I began my analysis by utilizing LDA to create topic models across my corpus & see which topics were most associated with each decade. The below results represent a model generated using 5,000 terms (classified as nouns by NLTK) in the count vectorization and 25 topics in the LDA algorithm, sorted by topics most associated with the past decade (2010’s). 
 
-![](Aspose.Words.45de480f-bb83-4849-a60a-0a356cb886b2.001.jpeg)
+![](images/Aspose.Words.45de480f-bb83-4849-a60a-0a356cb886b2.001.jpeg)
 
 As can be seen in the above, the topic most associated with the past decade is topic #13, which also happens to have a fairly high association with the all the other decades of music. Given the top terms in this topic, I would wager to say this topic is indicative of the rhythm and blues genre of music. Words such as “heart”, “beat” and “soul” have always been strongly identified with R&B music, but the base genre of blues, which R&B is derived from, strongly incorporates other musical forms, such as chants (“yeah”) and spirituals, which invoked the poignant lyrics of sentimental ballads to express one’s desperate emotional state (“low”). Consequently, the genres of music considered most popular throughout the decades in the analysis are all derivatives of R&B. Rock and roll, and its subsequent forms (such as metal, punk and alternative), is widely considered the most popular musical genre throughout the 1970’s up until the mid-nineties. At this point, rap, hip-hop and contemporary R&B started seeing a rise in popularity with the American public; a trend which continues to this day. 
 
@@ -22,21 +22,21 @@ Most telling from this analysis is when we look at the second and third topics m
 
 The most evident difference when looking at the above scatterplot is the increase in explicit lyrical content over the past fifty years. Music in the seventies appeared to be more emotionally loving, as evident by many of the tender terms in topics 2 (“love”, “heart”, “baby”) and 23 (“sugar”), whereas the 2010’s is associated with swear words (“a\*\*” and “sh!t”). The seventies also utilized, what many would consider, appropriate nouns for referencing others (“man”, “woman”, “people”), whereas the past decade utilizes slang, sometimes considered crass or inappropriate, language for addressing other people (“b!tch”, “kid”, n-word). Finally, it appears lyrics in the seventies were more introspective (“dream”, “life”, “moment”), but the 2010’s are more materialistic, as evident by topic 11 terms such as “diamonds” and “money” (which is the 15th top term in the topic). The below chart further illustrates the transition from loving, tender terms, to more explicit ones, as the terms “love” and “baby” have significantly decreased in lyrical usage over the past two decades, while the word “b!tch” (which is used almost as frequently as “girl” now) and the n-word have seen a steady increase over the same time period. 
 
-![](Aspose.Words.45de480f-bb83-4849-a60a-0a356cb886b2.003.jpeg)
+![](images/Aspose.Words.45de480f-bb83-4849-a60a-0a356cb886b2.003.jpeg)
 
 **Sentiment Analysis:** 
 
 Delving further into the lyrics, I performed sentiment analysis to see what the most listened to songs could reveal about the mood of the American population over the course of the past fifty years, and how this mood may have shifted across the decades. 
 
-![](Aspose.Words.45de480f-bb83-4849-a60a-0a356cb886b2.004.jpeg)
+![](images/Aspose.Words.45de480f-bb83-4849-a60a-0a356cb886b2.004.jpeg)
 
-![](Aspose.Words.45de480f-bb83-4849-a60a-0a356cb886b2.005.jpeg)
+![](images/Aspose.Words.45de480f-bb83-4849-a60a-0a356cb886b2.005.jpeg)
 
 The above charts show that while joy has been the predominant emotion expressed in popular music over the past 50 years, it has seen an overall decline in each decade since the 1970’s. Meanwhile, more negative emotional terms, specifically those of anger and fear, have seen steady increases in popular music, so much so that anger and fear were the second and third most dominant emotions in music of the past decade, respectively. Negative terms were so dominant in music over the past several years, that the overall polarity of the most popular music indicates a general negative emotional mood in the American population. This conclusion is further illustrated in the below scatterplot. 
 
-![](Aspose.Words.45de480f-bb83-4849-a60a-0a356cb886b2.006.jpeg)As can be seen in the above chart, the top six most negative “emotional years” in popular music have all been from the past decade, while the seven through nine spots are occupied by years from the decade before that. These same data points are all also on the lower half of the positive sentiment axis, contributing to the decrease in the overall polarity of popular music since the turn of the millennium. The below graph further illustrates that since the mid to late- nineties (when the rise in gangsta rap, grunge and alternative rock began), there has been a steady decrease in positive sentiment in popular music, met with a corresponding steady increase in negative sentiment. 
+![](images/Aspose.Words.45de480f-bb83-4849-a60a-0a356cb886b2.006.jpeg)As can be seen in the above chart, the top six most negative “emotional years” in popular music have all been from the past decade, while the seven through nine spots are occupied by years from the decade before that. These same data points are all also on the lower half of the positive sentiment axis, contributing to the decrease in the overall polarity of popular music since the turn of the millennium. The below graph further illustrates that since the mid to late- nineties (when the rise in gangsta rap, grunge and alternative rock began), there has been a steady decrease in positive sentiment in popular music, met with a corresponding steady increase in negative sentiment. 
 
-![](Aspose.Words.45de480f-bb83-4849-a60a-0a356cb886b2.007.jpeg)
+![](images/Aspose.Words.45de480f-bb83-4849-a60a-0a356cb886b2.007.jpeg)
 
 **Conclusion:** 
 
@@ -46,14 +46,14 @@ If Law and Ho’s theory that a society’s popular music reflects the ideals th
 
 Overall Topics in the Data 
 
-![](Aspose.Words.45de480f-bb83-4849-a60a-0a356cb886b2.008.jpeg)
+![](images/Aspose.Words.45de480f-bb83-4849-a60a-0a356cb886b2.008.jpeg)
 
 Clustering of the Topics 
 
-![](Aspose.Words.45de480f-bb83-4849-a60a-0a356cb886b2.009.jpeg)
+![](images/Aspose.Words.45de480f-bb83-4849-a60a-0a356cb886b2.009.jpeg)
 
 Word Clouds by Decade 
 
 (Notice Decrease in tender terms such as “love” and “baby”) 
 
-![](Aspose.Words.45de480f-bb83-4849-a60a-0a356cb886b2.010.jpeg)
+![](images/Aspose.Words.45de480f-bb83-4849-a60a-0a356cb886b2.010.jpeg)
